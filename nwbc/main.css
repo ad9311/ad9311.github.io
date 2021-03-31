@@ -163,6 +163,10 @@ a {
   margin: 0;
 }
 
+.pink a {
+  color: gray;
+}
+
 .extra_info,
 .description {
   background-color: #fffaf8;

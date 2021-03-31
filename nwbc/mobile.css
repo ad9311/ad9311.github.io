@@ -51,7 +51,7 @@
   .news_headline2,
   .news_headline3 {
     width: 100%;
-    height: 170px;
+    height: 177px;
     margin-left: 5px;
     margin-right: 5px;
     background-size: cover;
@@ -119,6 +119,7 @@
   .headlines {
     display: flex;
     margin-top: 110px;
+    height: 432px;
   }
 
   .hg_date_logo {
@@ -127,7 +128,7 @@
 
   .news_headline {
     width: 130%;
-    height: 411px;
+    height: 100%;
     margin-left: 5px;
     margin-right: 5px;
     background-size: cover;
@@ -175,6 +176,14 @@
 
   .tnw_logo {
     display: none;
+  }
+
+  .headlines {
+    height: 544px;
+  }
+
+  .news_headline {
+    height: 100%;
   }
 
   .hg_date_logo {
