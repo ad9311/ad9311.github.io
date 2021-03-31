@@ -78,6 +78,22 @@
   display: none;
 }
 
+.list_deals {
+  position: relative;
+  display: flex;
+  height: 70px;
+  margin: 20px 0;
+}
+
+.list_deals img {
+  width: 75px;
+  height: 75px;
+}
+
+.deals_promo {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   .top_menu {
     display: none;
@@ -189,6 +205,45 @@
     width: 100%;
     height: auto;
   }
+
+  .list_deals_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .list_deals {
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+    margin: 20px 0;
+  }
+
+  .list_deals img {
+    width: 100%;
+    height: auto;
+  }
+
+  .list_img {
+    margin: 0 10px;
+  }
+
+  .deals_promo strong {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 25px;
+    right: 5px;
+    font-size: 13px;
+  }
+
+  .deals_promo {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 80px;
+    height: 80px;
+    background-image: url("images/deals-ribbon.svg");
+  }
 }
 
 @media only screen and (min-width: 1048px) {
@@ -228,11 +283,16 @@
     background-image: url("images/cover-gradient.webp");
     background-size: cover;
   }
+
+  .list_deals_container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
   .middle_container {
     margin: auto;
-    width: 1000px;
+    width: 1100px;
   }
 }

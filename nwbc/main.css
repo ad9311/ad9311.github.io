@@ -267,6 +267,29 @@ a {
   padding: 5px;
 }
 
+/* .link_to_deals p {
+  position: relative;
+  left: 70%;
+  bottom: 120%;
+} */
+
+.list_deals {
+  padding: 0;
+}
+
+.list_deals span,
+.list_deals p {
+  margin: 0 10px;
+}
+
+.list_deals span {
+  color: gray;
+}
+
+.list_deals_container {
+  padding-left: 10px;
+}
+
 .footer_lower {
   display: block;
   font-size: 14px;
