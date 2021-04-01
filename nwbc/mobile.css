@@ -179,6 +179,12 @@
     background-size: cover;
   }
 
+  .most_popular {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+  }
+
   .articles {
     flex-direction: row;
   }
@@ -246,7 +252,8 @@
   }
 }
 
-@media only screen and (min-width: 1048px) {
+
+@media only screen and (min-width: 1024px) {
   .art_x {
     display: block;
   }
@@ -287,6 +294,12 @@
   .list_deals_container {
     display: grid;
     grid-template-columns: auto auto auto auto;
+  }
+
+  .most_popular {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
   }
 }
 

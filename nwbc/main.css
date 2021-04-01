@@ -109,6 +109,102 @@ a {
   justify-content: center;
 }
 
+.popular_most {
+  background-image: url(./images/pic1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 150px;
+}
+
+.popular_most h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.popular_most a {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.popular_paragraph {
+  font-size: 14px;
+  color: grey;
+}
+
+.latest_popular_header ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  align-items: left;
+}
+
+.popular_header {
+  font-weight: 900;
+  font-size: 28px;
+  color: #f42;
+}
+
+.latest_popular_header a {
+  color: #f42;
+}
+
+.latest_most_headlines ul {
+  line-height: 40px;
+  color: #f42;
+}
+
+.latest_most_headlines a {
+  color: black;
+}
+
+.latest_popular_header {
+  padding: 5px;
+  color: #f42;
+}
+
+.popular_most {
+  padding-top: 150px;
+  padding-left: 10px;
+}
+
+.popular_most h3,
+.popular_most a {
+  color: #ffebe7;
+}
+
+.popular_most ul {
+  margin-top: 120px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: #ffebe7;
+}
+
+.popular_most a {
+  color: #fffaf8;
+}
+
+.latest_popular {
+  display: flex;
+  flex-direction: row;
+  background-color: #f0361614;
+  width: 100%;
+  height: 100px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.latest_popular_header {
+  align-items: left;
+  text-decoration: none;
+}
+
+.latest_popular img {
+  width: 100px;
+  height: 100px;
+}
+
 .yellow_banner {
   padding-left: 6px;
   padding-right: 6px;
@@ -233,6 +329,22 @@ a {
 
 .news_headline3 {
   background-image: url("images/hg2.webp");
+}
+
+.link_to_deals {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.link_to_deals h2 {
+  font-size: 28px;
+}
+
+.link_to_deals a,
+.link_to_deals p {
+  color: #f42;
 }
 
 .footer-container {
