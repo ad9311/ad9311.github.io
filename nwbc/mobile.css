@@ -59,6 +59,10 @@
   grid-template-columns: 3px;
 }
 
+.latest_header {
+  padding-left: 20px;
+}
+
 .latest_news {
   display: flex;
 }
@@ -76,6 +80,11 @@
 
 .art_x {
   display: none;
+}
+
+.most_popular {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .list_deals {
@@ -179,10 +188,16 @@
     background-size: cover;
   }
 
+  .latest_header {
+    padding-left: 0;
+  }
+
   .most_popular {
     display: grid;
     grid-template-columns: auto auto;
     gap: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .articles {
@@ -283,6 +298,11 @@
     width: 50%;
     height: 110px;
     margin: 10px;
+  }
+
+  .most_news {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
   }
 
   .orange_shadow {
