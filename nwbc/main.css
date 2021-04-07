@@ -92,14 +92,24 @@ a {
 .latest_header h5 {
   font-size: 14px;
   margin-top: 15px;
-  margin-left: 20px;
+}
+
+.link_black {
+  margin-bottom: 0;
+}
+
+.link_black a {
+  color: black;
+}
+
+.link_orange a {
+  color: #f42;
 }
 
 .author_article {
   font-size: small;
   color: rgb(136, 130, 130);
   margin-top: 0;
-  margin-left: 20px;
 }
 
 .vert_align {
@@ -110,25 +120,31 @@ a {
 }
 
 .popular_most {
-  background-image: url(./images/pic1.jpg);
+  position: relative;
+  background-image: url(./images/pic2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 150px;
+  padding-top: 50%;
   padding-left: 10px;
   background-position: 50% 50%;
   height: 150px;
 }
 
-.popular_most h3 {
-  font-size: 18px;
+.popular_most_text h3 {
+  font-size: 14px;
   font-weight: 600;
   color: #ffebe7;
 }
 
-.popular_most a {
-  font-size: 24px;
+.popular_most_text a {
+  font-size: 22px;
   font-weight: 800;
   color: #fffaf8;
+}
+
+.popular_most_text {
+  position: absolute;
+  bottom: 0;
 }
 
 .popular_paragraph {
@@ -145,32 +161,45 @@ a {
 .popular_header {
   font-weight: 900;
   font-size: 28px;
-  color: #f42;
 }
 
 .latest_popular_header a {
   color: #f42;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .latest_most_headlines ul {
-  line-height: 40px;
+  font-size: 12px;
+  padding-left: 15px;
+  line-height: 20px;
   color: #f42;
+}
+
+.latest_most_headlines hr {
+  margin: 10px 0 15px 0;
+  color: white;
+  opacity: 0.2;
 }
 
 .latest_most_headlines a {
-  color: black;
+  color: #333;
 }
 
 .latest_popular_header {
-  padding: 5px;
+  padding: 10px;
   text-decoration: none;
   color: #f42;
+}
+
+.latest_popular_header h5 {
+  margin: 0;
+  font-weight: 400;
 }
 
 .popular_most ul {
   list-style-type: none;
   padding: 0;
-  margin: 0 120px 0 0;
   color: #ffebe7;
 }
 
@@ -319,7 +348,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .link_to_deals h2 {
@@ -362,12 +391,6 @@ a {
 .other_links a {
   padding: 5px;
 }
-
-/* .link_to_deals p {
-  position: relative;
-  left: 70%;
-  bottom: 120%;
-} */
 
 .list_deals {
   padding: 0;
@@ -416,4 +439,17 @@ a {
   width: auto;
   margin-right: 1px;
   vertical-align: baseline;
+}
+
+.link_black:hover a {
+  color: #f42;
+  text-decoration: underline;
+}
+
+.link_orange a:hover {
+  color: black;
+}
+
+.latest_most_headlines a:hover {
+  color: #666;
 }
