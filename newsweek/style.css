@@ -92,6 +92,18 @@
   height: 25vh;
 }
 
+.background-hun {
+  background-image: url("img/hungary.jpg");
+  background-size: cover;
+  height: 25vh;
+}
+
+.background-rank {
+  background-image: url("img/nursing.png");
+  background-size: cover;
+  height: 25vh;
+}
+
 .background-biden {
   background-image: url("img/biden.jpg");
   background-size: cover;
@@ -134,12 +146,29 @@
   border-bottom-width: 3px;
   border-bottom-style: solid;
   border-bottom-color: #777;
+  border-top-width: 3px;
+  border-top-style: double;
+  border-top-color: #777;
 }
 
-.round-tn{
+.versus {
+  background-color: black;
+  border-radius: 50%;
+  position: relative;
+  padding: 4px;
+  width: 11%;
+  left: 40%;
+  top: 3vh;
+}
+
+.round-tn {
   width: 5vw;
 }
 
 .text-smaller {
   font-size: 14px;
+}
+
+.singup-background {
+  background-color: #f4f5f6;
 }
