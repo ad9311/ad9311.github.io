@@ -45,4 +45,4 @@ Please leave a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [CC0-1.0 License](./LICENSE) licensed.
+This project is [CC0-1.0 License](./docs/LICENSE) licensed.
