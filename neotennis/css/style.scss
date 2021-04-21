@@ -1,0 +1,334 @@
+@import "font.css";
+
+$color1: #d35266;
+$color2: #888;
+$color3: #383838;
+$light: white;
+$medium: #f2f2f2;
+
+body {
+  padding: 0;
+  margin: 0;
+  color: $color3;
+  font-family: 'Helvetica-Neue-Light', sans-serif;
+}
+
+/* Containers */
+.container-wide {
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container-medium {
+  max-width: 680px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.carousel-container {
+  width: 850px;
+  margin: auto;
+}
+
+.carousel-container-inner {
+  width: 650px;
+  margin: auto;
+}
+
+.search-section {
+  height: auto;
+}
+
+.footer-logo-container {
+  width: 150px;
+}
+
+.header-img {
+  background-image: url("../img/cover-cropped.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 30px;
+
+  input {
+    border: transparent;
+    border-left: 1px solid $color3;
+  }
+}
+
+.footer-p {
+  width: auto;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.controllers {
+  position: absolute;
+  bottom: 0;
+  right: 12px;
+}
+
+/* Backgrounds */
+.bg1 {
+  background-color: $color1;
+}
+
+.bg3 {
+  background-color: $color3;
+}
+
+.bg-light {
+  background-color: $light;
+}
+
+.bg-medium {
+  background-color: $medium;
+}
+
+/* Font */
+.ftgb {
+  font-family: 'Gotham-Bold', sans-serif;
+}
+
+.ftgl {
+  font-family: 'Gotham-Rounded-Light', sans-serif;
+}
+
+.fthm {
+  font-family: 'Helvetica-Neue-Medium', sans-serif;
+}
+
+.fthb {
+  font-family: 'Helvetica-Neue-Bold', sans-serif;
+}
+
+.fss {
+  font-size: 0.9rem;
+}
+
+.color1 {
+  color: $color1;
+}
+
+.color2 {
+  color: $color2;
+}
+
+.color3 {
+  color: $color3;
+}
+
+.color-light {
+  color: $light;
+}
+
+/* Text */
+.product-text {
+  width: 120px;
+}
+
+.hide-small {
+  display: none;
+}
+
+/* Hover */
+.white-hover-gray {
+  color: $light;
+  transition-duration: 0.5s;
+}
+
+.white-hover-gray:hover {
+  color: $color3;
+}
+
+.gray-hover-red {
+  color: $color2;
+  transition-duration: 0.5s;
+}
+
+.gray-hover-red:hover {
+  color: $color1;
+}
+
+.gray-hover-smoke {
+  color: $color2;
+  transition-duration: 0.5s;
+}
+
+.gray-hover-smoke:hover {
+  color: $color3;
+}
+
+.smoke-hover-red {
+  color: $color3;
+  transition-duration: 0.5s;
+}
+
+.smoke-hover-red:hover {
+  color: $color1;
+}
+
+.nav-links {
+  color: $color2;
+  transition-duration: 0.5s;
+
+  svg {
+    transition-duration: 0.5s;
+    fill: $color2;
+  }
+}
+
+.nav-links:hover {
+  color: $color1;
+
+  svg {
+    fill: $color1;
+  }
+}
+
+/* Icons */
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-logo {
+  width: 64px;
+  height: 64px;
+}
+
+/* SVG */
+.svg-fill1 {
+  fill: $color1;
+}
+
+.svg-fill2 {
+  fill: $color2;
+}
+
+/* Lists */
+.list {
+  padding: 0;
+  margin: 0;
+
+  li {
+    padding: 0 5px;
+    list-style: none;
+  }
+}
+
+.list-display {
+  li {
+    display: inline-block;
+  }
+}
+
+.list-pag {
+  li {
+    padding: 0;
+  }
+}
+
+/* Inputs */
+.input {
+  width: 180px;
+  height: 30px;
+}
+
+.input-search {
+  width: 180px;
+}
+
+.add {
+  fill: $color3;
+}
+
+.add:hover {
+  background-color: $color1;
+  transition-duration: 0.5s;
+}
+
+.label {
+  width: 80px;
+}
+
+.hover-op {
+  opacity: 1;
+  transition-duration: 0.5s;
+}
+
+.hover-op:hover {
+  opacity: 0.7;
+}
+
+/* Grids */
+.products-grid {
+  display: block;
+}
+
+.search-results-grid {
+  display: block;
+}
+
+/* Borders */
+.bottom-border {
+  border-bottom: 1px solid $color1;
+}
+
+@media (min-width: 368px) {
+  .hide-small {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 576px) {
+  .products-grid {
+    display: grid;
+    column-gap: 15px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .search-results-grid {
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .search-section {
+    height: 220px;
+  }
+
+  .input-search {
+    width: 80px;
+  }
+
+  .products-grid {
+    display: grid;
+    column-gap: 15px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+  }
+
+  .search-results-grid {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer-p {
+    width: 350px;
+  }
+}

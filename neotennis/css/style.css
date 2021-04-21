@@ -1,0 +1,318 @@
+@import "font.css";
+body {
+  padding: 0;
+  margin: 0;
+  color: #383838;
+  font-family: "Helvetica-Neue-Light", sans-serif;
+}
+
+/* Containers */
+.container-wide {
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container-medium {
+  max-width: 680px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.carousel-container {
+  width: 850px;
+  margin: auto;
+}
+
+.carousel-container-inner {
+  width: 650px;
+  margin: auto;
+}
+
+.search-section {
+  height: auto;
+}
+
+.footer-logo-container {
+  width: 150px;
+}
+
+.header-img {
+  background-image: url("../img/cover-cropped.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 30px;
+}
+.buy input {
+  border: transparent;
+  border-left: 1px solid #383838;
+}
+
+.footer-p {
+  width: auto;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.controllers {
+  position: absolute;
+  bottom: 0;
+  right: 12px;
+}
+
+/* Backgrounds */
+.bg1 {
+  background-color: #d35266;
+}
+
+.bg3 {
+  background-color: #383838;
+}
+
+.bg-light {
+  background-color: white;
+}
+
+.bg-medium {
+  background-color: #f2f2f2;
+}
+
+/* Font */
+.ftgb {
+  font-family: "Gotham-Bold", sans-serif;
+}
+
+.ftgl {
+  font-family: "Gotham-Rounded-Light", sans-serif;
+}
+
+.fthm {
+  font-family: "Helvetica-Neue-Medium", sans-serif;
+}
+
+.fthb {
+  font-family: "Helvetica-Neue-Bold", sans-serif;
+}
+
+.fss {
+  font-size: 0.9rem;
+}
+
+.color1 {
+  color: #d35266;
+}
+
+.color2 {
+  color: #888;
+}
+
+.color3 {
+  color: #383838;
+}
+
+.color-light {
+  color: white;
+}
+
+/* Text */
+.product-text {
+  width: 120px;
+}
+
+.hide-small {
+  display: none;
+}
+
+/* Hover */
+.white-hover-gray {
+  color: white;
+  transition-duration: 0.5s;
+}
+
+.white-hover-gray:hover {
+  color: #383838;
+}
+
+.gray-hover-red {
+  color: #888;
+  transition-duration: 0.5s;
+}
+
+.gray-hover-red:hover {
+  color: #d35266;
+}
+
+.gray-hover-smoke {
+  color: #888;
+  transition-duration: 0.5s;
+}
+
+.gray-hover-smoke:hover {
+  color: #383838;
+}
+
+.smoke-hover-red {
+  color: #383838;
+  transition-duration: 0.5s;
+}
+
+.smoke-hover-red:hover {
+  color: #d35266;
+}
+
+.nav-links {
+  color: #888;
+  transition-duration: 0.5s;
+}
+.nav-links svg {
+  transition-duration: 0.5s;
+  fill: #888;
+}
+
+.nav-links:hover {
+  color: #d35266;
+}
+.nav-links:hover svg {
+  fill: #d35266;
+}
+
+/* Icons */
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-logo {
+  width: 64px;
+  height: 64px;
+}
+
+/* SVG */
+.svg-fill1 {
+  fill: #d35266;
+}
+
+.svg-fill2 {
+  fill: #888;
+}
+
+/* Lists */
+.list {
+  padding: 0;
+  margin: 0;
+}
+.list li {
+  padding: 0 5px;
+  list-style: none;
+}
+
+.list-display li {
+  display: inline-block;
+}
+
+.list-pag li {
+  padding: 0;
+}
+
+/* Inputs */
+.input {
+  width: 180px;
+  height: 30px;
+}
+
+.input-search {
+  width: 180px;
+}
+
+.add {
+  fill: #383838;
+}
+
+.add:hover {
+  background-color: #d35266;
+  transition-duration: 0.5s;
+}
+
+.label {
+  width: 80px;
+}
+
+.hover-op {
+  opacity: 1;
+  transition-duration: 0.5s;
+}
+
+.hover-op:hover {
+  opacity: 0.7;
+}
+
+/* Grids */
+.products-grid {
+  display: block;
+}
+
+.search-results-grid {
+  display: block;
+}
+
+/* Borders */
+.bottom-border {
+  border-bottom: 1px solid #d35266;
+}
+
+@media (min-width: 368px) {
+  .hide-small {
+    display: inline-block;
+  }
+}
+@media (min-width: 576px) {
+  .products-grid {
+    display: grid;
+    column-gap: 15px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .search-results-grid {
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+  }
+}
+@media (min-width: 768px) {
+  .search-section {
+    height: 220px;
+  }
+
+  .input-search {
+    width: 80px;
+  }
+
+  .products-grid {
+    display: grid;
+    column-gap: 15px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+  }
+
+  .search-results-grid {
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  .footer-p {
+    width: 350px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
