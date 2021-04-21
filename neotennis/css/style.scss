@@ -1,15 +1,15 @@
 @import "font.css";
 
-$color1: #d35266;
-$color2: #888;
-$color3: #383838;
-$light: white;
-$medium: #f2f2f2;
+$light-red: #d35266;
+$medium-gray: #888;
+$smoke-gray: #383838;
+$white: white;
+$gray-white: #f2f2f2;
 
 body {
   padding: 0;
   margin: 0;
-  color: $color3;
+  color: $smoke-gray;
   font-family: 'Helvetica-Neue-Light', sans-serif;
 }
 
@@ -61,7 +61,7 @@ body {
 
   input {
     border: transparent;
-    border-left: 1px solid $color3;
+    border-left: 1px solid $smoke-gray;
   }
 }
 
@@ -79,19 +79,19 @@ body {
 
 /* Backgrounds */
 .bg1 {
-  background-color: $color1;
+  background-color: $light-red;
 }
 
 .bg3 {
-  background-color: $color3;
+  background-color: $smoke-gray;
 }
 
 .bg-light {
-  background-color: $light;
+  background-color: $white;
 }
 
 .bg-medium {
-  background-color: $medium;
+  background-color: $gray-white;
 }
 
 /* Font */
@@ -116,19 +116,19 @@ body {
 }
 
 .color1 {
-  color: $color1;
+  color: $light-red;
 }
 
 .color2 {
-  color: $color2;
+  color: $medium-gray;
 }
 
 .color3 {
-  color: $color3;
+  color: $smoke-gray;
 }
 
 .color-light {
-  color: $light;
+  color: $white;
 }
 
 /* Text */
@@ -142,56 +142,56 @@ body {
 
 /* Hover */
 .white-hover-gray {
-  color: $light;
+  color: $white;
   transition-duration: 0.5s;
 }
 
 .white-hover-gray:hover {
-  color: $color3;
+  color: $smoke-gray;
 }
 
 .gray-hover-red {
-  color: $color2;
+  color: $medium-gray;
   transition-duration: 0.5s;
 }
 
 .gray-hover-red:hover {
-  color: $color1;
+  color: $light-red;
 }
 
 .gray-hover-smoke {
-  color: $color2;
+  color: $medium-gray;
   transition-duration: 0.5s;
 }
 
 .gray-hover-smoke:hover {
-  color: $color3;
+  color: $smoke-gray;
 }
 
 .smoke-hover-red {
-  color: $color3;
+  color: $smoke-gray;
   transition-duration: 0.5s;
 }
 
 .smoke-hover-red:hover {
-  color: $color1;
+  color: $light-red;
 }
 
 .nav-links {
-  color: $color2;
+  color: $medium-gray;
   transition-duration: 0.5s;
 
   svg {
     transition-duration: 0.5s;
-    fill: $color2;
+    fill: $medium-gray;
   }
 }
 
 .nav-links:hover {
-  color: $color1;
+  color: $light-red;
 
   svg {
-    fill: $color1;
+    fill: $light-red;
   }
 }
 
@@ -208,11 +208,11 @@ body {
 
 /* SVG */
 .svg-fill1 {
-  fill: $color1;
+  fill: $light-red;
 }
 
 .svg-fill2 {
-  fill: $color2;
+  fill: $medium-gray;
 }
 
 /* Lists */
@@ -249,11 +249,11 @@ body {
 }
 
 .add {
-  fill: $color3;
+  fill: $smoke-gray;
 }
 
 .add:hover {
-  background-color: $color1;
+  background-color: $light-red;
   transition-duration: 0.5s;
 }
 
@@ -281,7 +281,7 @@ body {
 
 /* Borders */
 .bottom-border {
-  border-bottom: 1px solid $color1;
+  border-bottom: 1px solid $light-red;
 }
 
 @media (min-width: 368px) {
