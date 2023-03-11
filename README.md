@@ -1,16 +1,30 @@
-# ad9311
+| ![logo](./assests/img/svgs/ad@64x64.svg) | Ángel Díaz |
+|--|--|
 
-This is a special repostory here you can find all the pages I created solo and in collaboration
+I'm a **Full-stack Web Developer** with experience building responsive, user-friendly web applications. Skilled in front-end and back-end development.
+<br/>
+<br/>
 
-### Most of This Pages Are Built With:
+### My Abilities 🔧
+<br/>
 
-- ![HTML](https://img.shields.io/badge/-HTML-blue)
-- ![CSS](https://img.shields.io/badge/-CSS-green)
-- ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow)
-- ![JavaScript](https://img.shields.io/badge/-Webpack-yellow)
-- ![Bootstrap](https://img.shields.io/badge/-Bootstrap-purple)
-- ![Ruby](https://img.shields.io/badge/-Ruby-red)
-- ![Ruby](https://img.shields.io/badge/-RubyOnRails-red)
+![html5](https://img.shields.io/badge/-HTML5-black?style=for-the-badge&logo=html5)
+![css3](https://img.shields.io/badge/-CSS3-black?style=for-the-badge&logo=css3)
+![js](https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logo=javascript)
+<br/>
 
+![react](https://img.shields.io/badge/-Vite-black?style=for-the-badge&logo=vite)
+![react](https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react)
+![react](https://img.shields.io/badge/-Redux-black?style=for-the-badge&logo=redux)
+![react](https://img.shields.io/badge/-Typescript-black?style=for-the-badge&logo=typescript)
+<br/>
 
+![react](https://img.shields.io/badge/-GO-black?style=for-the-badge&logo=go)
+![react](https://img.shields.io/badge/-Ruby-black?style=for-the-badge&logo=ruby)
+![react](https://img.shields.io/badge/-Rails-black?style=for-the-badge&logo=rubyonrails)
+![react](https://img.shields.io/badge/-PostgreSQL-black?style=for-the-badge&logo=postgresql)
+<br />
 
+![react](https://img.shields.io/badge/-TailwindCSS-black?style=for-the-badge&logo=tailwindcss)
+![react](https://img.shields.io/badge/-SASS-black?style=for-the-badge&logo=sass)
+![react](https://img.shields.io/badge/-Bootstrap-black?style=for-the-badge&logo=bootstrap)
